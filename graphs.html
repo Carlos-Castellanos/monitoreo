@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all" title>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" media="all" title>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Air quality monitoring</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="graphs.html">Graphs</a>
+                    <a class="nav-link" href="maps.html">Maps</a>
+                    <a class="nav-link " href="sensor.html" tabindex="-1" aria-disabled="true">Sensor</a>
+                    <a class="nav-link " href="login.html" tabindex="-1" aria-disabled="true">Login</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="wrapper">
+        <header class="header">Today measures</header>
+        <article class="main">
+            <img src="static/images/datagraph1.png" alt="datas">
+        </article>
+        <aside class="aside aside-1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium laboriosam obcaecati itaque rem ad
+                amet nisi minus odit impedit nemo repellat, in consectetur, nulla dolor dicta. Quas voluptas id nemo?
+            </p>
+        </aside>
+        <aside class="aside aside-2">
+
+            <label for="">Type<select id="txtStatus" type="number" class="form-select">
+                    <option selectd hidden value="-1">-Periodicity-</option>
+                    <option value="0">Diary</option>
+                    <option value="1">Weekly</option>
+                    <option value="3">Monthly</option>
+                    <option value="6">Completed</option>
+                    <option value="9">Yearly</option>
+                </select>
+            </label>
+        </aside>
+        <footer class="footer">Today is a great day to go for a walk</footer>
+    </div>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
